@@ -1,0 +1,14 @@
+# 1. CLASS EXAMPLE
+
+Class: Cellphone
+Identity (ID): 0123456789
+	Attributes:
+		Size: 6.67 in
+		Color: White
+		Brand: POCO
+		Model: F6 Pro
+		Phone Number: 311 108 7297
+	Methods:
+		Make Calls (Phone Number, Cellphone): Make a phone call to Cellphone that has Phone Number.
+		Save Contact (Name, Phone Number): Save Name and Phone Number to Contact List.
+		Take Picture: Capture what's in front of the camera.
