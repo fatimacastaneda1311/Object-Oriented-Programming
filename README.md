@@ -87,9 +87,23 @@ Welcome to my repository for **Object-Oriented Programming**. This repository co
     * `` __len__() `` so that ``len(Book)`` returns the number of pages.
 
 ---
-> 📌 **NOTE:**
-> Every program includes possible errors that may occur while the program is being coded.
 
+### 📂 Unit 4: Application Development and Design Environments
+
+* **[Exercise 1 (Types of Exception)](./Unit%204/Exercise1.py)**
+  * **Description:** Create a class defining five different types of exception (**1. ValueError, 2. TypeError, 3. ZeroDivisionError, 4. IndexError, 5. KeyError**) and demonstrate them using ``Try`` and ``Except``.
+
+* **[Exercise 2 (Age Errors)](./Unit%204/Exercise2.py)**
+  * **Description:** Add the following to the ``Example 3`` code:
+    * Create a second custom exception called ``AgeTooLargeError`` that is raised if the age is over 120.
+    * Modify the ``check_age()`` function to raise this new exception when needed.
+    * Add a ``Try-Except`` block to handle ``ValueError`` if the user enters a non integer.
+    * Add a finally block that prints **"Code processing finished!"**
+
+---
+> 📌 **NOTE:**
+> Every program in Unit 1 and Unit 2 includes possible errors that may occur while the program is being coded.
+> Every program is documented with comments (#) explaining the code.
 ---
 ## 🛠️ Technologies & Tools
 
