@@ -41,7 +41,7 @@ class TypesOfException:
         # Accessing an index that does not exist in self.list triggers an IndexError
         return self.list[ind_value]
 
-    # Method to demonstrate KeyError
+    # Function to demonstrate KeyError
     def key_error(self, key_value):
         """Attempts to look up a key that does not exist inside the dictionary.
         Raises -> KeyError: Raised when accessing a non-existent key in a dictionary."""

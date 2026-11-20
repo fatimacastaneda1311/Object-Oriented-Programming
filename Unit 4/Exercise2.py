@@ -16,7 +16,7 @@ class AgeTooLargeError(Exception):
         message = f"Age {age} is above the allowed threshold of {threshold}"
         super().__init__(message)
 
-# Method to check the age against defined thresholds
+# Function to check the age against defined thresholds
 def check_age(age):
     """Checks if the age meets the valid range requirements"""
     if age < 18:
