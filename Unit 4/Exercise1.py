@@ -19,6 +19,7 @@ class TypesOfException:
         Raises -> ValueError: Raised when a function receives an argument of the right type but an inappropriate value."""
         # Trying to parse a text string into an integer will raise a ValueError
         return int(value)
+    
     # Method to demonstrate TypeError
     def type_error(self, a, b):
         """Attempts to perform an arithmetic addition between incompatible data types (e.g., an integer and a string).
