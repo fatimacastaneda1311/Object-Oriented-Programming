@@ -93,7 +93,7 @@ Welcome to my repository for **Object-Oriented Programming**. This repository co
 * **[Exercise 1 (Types of Exception)](./Unit%204/Exercise1.py)**
   * **Description:** Create a class defining five different types of exception (**1. ValueError, 2. TypeError, 3. ZeroDivisionError, 4. IndexError, 5. KeyError**) and demonstrate them using ``Try`` and ``Except``.
 
-* **[Exercise 2 (Age Errors)](./Unit%204/Exercise2.py)**
+* **[Exercise 2 (Manage Errors)](./Unit%204/Exercise2.py)**
   * **Description:** Add the following to the ``Example 3`` code:
     * Create a second custom exception called ``AgeTooLargeError`` that is raised if the age is over 120.
     * Modify the ``check_age()`` function to raise this new exception when needed.
